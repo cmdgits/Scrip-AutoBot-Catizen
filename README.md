@@ -45,7 +45,7 @@ Thực hiện theo các bước bên dưới để khởi chạy tập lệnh:
 2. Đi tới tab **"Sources"**trong trình kiểm tra web.
 
 3. Tìm tệp **"bundle-*.js"**. Nó nằm trong thư mục **"tgCat/game/cat/js"**.
-4. Mở tệp **"bundle-*.js"**và tìm dòng có điều kiện **t([e("leaguechange")], N.prototype, "updateBg", null),**.
+4. Mở tệp **"bundle-*.js"**và tìm dòng có điều kiện ```t([e("leaguechange")], N.prototype, "updateBg", null),```.
 
 5. Đặt Brake Point tại đường này. Bạn có thể thực hiện việc này bằng cách nhấp vào số dòng ở bên trái của mã hoặc nhấn phím **F9**trên bàn phím.
 
@@ -148,7 +148,7 @@ Follow the steps below to launch the script:
 2. Go to the **"Sources"** tab in the web inspector.
 
 3. Find the **"bundle-*.js"** file. It is located in the **"tgCat/game/cat/js"** directory.
-4. Open the **"bundle-*.js"** file and find the line with the condition **t([e("leaguechange")], N.prototype, "updateBg", null),**.
+4. Open the **"bundle-*.js"** file and find the line with the condition ```t([e("leaguechange")], N.prototype, "updateBg", null),```.
 
 5. Set a Breakpoint at this line. You can do this by clicking on the line number to the left of the code or by pressing **F9** on your keyboard.
 
