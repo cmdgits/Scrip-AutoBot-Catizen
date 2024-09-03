@@ -44,7 +44,7 @@ Thực hiện theo các bước bên dưới để khởi chạy tập lệnh:
 
 3. Tìm tệp **"bundle-*.js"**. Nó nằm trong thư mục **"tgCat/game/cat/js"**.
 4. Mở tệp **"bundle-*.js"**và tìm dòng có điều kiện :
-    ' t([e("leaguechange")], N.prototype, "updateBg", null),'
+    ` t([e("leaguechange")], N.prototype, "updateBg", null),`
 
 
 6. Đặt Brake Point tại đường này. Bạn có thể thực hiện việc này bằng cách nhấp vào số dòng ở bên trái của mã hoặc nhấn phím **F9**trên bàn phím.
