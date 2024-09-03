@@ -45,7 +45,7 @@ Thực hiện theo các bước bên dưới để khởi chạy tập lệnh:
 2. Đi tới tab **"Sources"**trong trình kiểm tra web.
 
 3. Tìm tệp **"bundle-*.js"**. Nó nằm trong thư mục **"tgCat/game/cat/js"**.
-4. Mở tệp **"bundle-*.js"**và tìm dòng có điều kiện **A([R("leaguechange")], N.prototype, "updateBg", null),**.
+4. Mở tệp **"bundle-*.js"**và tìm dòng có điều kiện **t([e("leaguechange")], N.prototype, "updateBg", null),**.
 
 5. Đặt Brake Point tại đường này. Bạn có thể thực hiện việc này bằng cách nhấp vào số dòng ở bên trái của mã hoặc nhấn phím **F9**trên bàn phím.
 
@@ -75,18 +75,18 @@ try {
             this.m_btn_AutoSetting.visible = false;
         }
         this.m_img_StopAuto.visible = !P.cat.isAuto;
-        u(`AutoBot ${P.cat.isAuto ? 'đã kích hoạt' : 'đã tắt'}!\n\nĐược crack bởi @me`);
+        u(`AutoBot ${P.cat.isAuto ? 'đã kích hoạt' : 'đã tắt'}!\n\nĐược crack bởi @cmdgit`);
     }
     
     // Gán hàm onClickAuto vào prototype của N thay vì M
     N.prototype.onClickAuto = onClickAuto;
     console.log(`${consolePrefix}Script đã tải`, consoleGreen);
-    console.log(`${consolePrefix}Được crack bởi @me`, consoleGreen);
+    console.log(`${consolePrefix}Được crack bởi @cmdgit`, consoleGreen);
 
 } catch (e) {
     console.log(`${consolePrefix}Đã xảy ra lỗi, điểm dừng được đặt không đúng!`, consoleRed);
     console.log(`${consolePrefix}Vui lòng làm theo hướng dẫn, và bạn sẽ thành công :*`, consoleRed);
-    console.log('https://github.com/bibo318/AutoBot-Catizen');
+    console.log('https://github.com/cmdgit/AutoBot-Catizen');
 }
 ```
 8. Để tắt trình gỡ lỗi, hãy quay lại tab **"Sources"**và nhấp vào Brake Point để xóa nó. Bạn cũng có thể nhấn lại phím **F9**để xóa Brake Point.
@@ -94,7 +94,7 @@ try {
 ### Đó là nó! Giờ đây bạn có thể sử dụng chế độ Tự động miễn phí trong trò chơi Catizen trên Telegram.
 
 ## Tác giả
-bibo318
+cmdgit
 
 
 ####################English####################
@@ -179,26 +179,24 @@ try {
             this.m_btn_AutoSetting.visible = false;
         }
         this.m_img_StopAuto.visible = !P.cat.isAuto;
-        u(`AutoBot ${P.cat.isAuto ? 'đã kích hoạt' : 'đã tắt'}!\n\nĐược crack bởi @bibo318`);
+        u(`AutoBot ${P.cat.isAuto ? 'đã kích hoạt' : 'đã tắt'}!\n\nĐược crack bởi @cmdgits`);
     }
     
     // Gán hàm onClickAuto vào prototype của N thay vì M
     N.prototype.onClickAuto = onClickAuto;
     console.log(`${consolePrefix}Script đã tải`, consoleGreen);
-    console.log(`${consolePrefix}Được crack bởi @me`, consoleGreen);
+    console.log(`${consolePrefix}Được crack bởi @cmdgits`, consoleGreen);
 
 } catch (e) {
     console.log(`${consolePrefix}Đã xảy ra lỗi, điểm dừng được đặt không đúng!`, consoleRed);
     console.log(`${consolePrefix}Vui lòng làm theo hướng dẫn, và bạn sẽ thành công :*`, consoleRed);
-    console.log('[https://github.com/cmdgits/Scrip-AutoBot-Catizen](https://github.com/cmdgits/Scrip-AutoBot-Catizen))');
+    console.log('https://github.com/cmdgits/AutoBot-Catizen');
 }
 ```
 
 8. To disable the debugger, go back to the **"Sources"** tab and click on the Breakpoint to remove it. You can also press **F9** again to remove the Breakpoint.
 
 ### That's it! You can now use the Auto mode for free in the Catizen game on Telegram.
-
-## Author
 
 
 
