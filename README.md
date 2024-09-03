@@ -2,12 +2,10 @@
 
 <div align="center">
 
-[<img src="./resources/catizen-logo.jpg" width="144"/>](https://t.me/catizenbot)
-
   <h1 align="center">AutoBot cho Catizen</h1>
   
   <p align="center">
-    <strong>Kịch bản này mở khóa nút chế độ "Tự động" trong trò chơi mà không yêu cầu chi phí 3900 $Fish.</strong>
+    <strong>Scrip này mở khóa nút chế độ "Tự động" trong trò chơi mà không yêu cầu chi phí 3900 $Fish.</strong>
   </p>
 
 
@@ -46,7 +44,7 @@ Thực hiện theo các bước bên dưới để khởi chạy tập lệnh:
 
 3. Tìm tệp **"bundle-*.js"**. Nó nằm trong thư mục **"tgCat/game/cat/js"**.
 4. Mở tệp **"bundle-*.js"**và tìm dòng có điều kiện :
-    ``` t([e("leaguechange")], N.prototype, "updateBg", null),```
+    ' t([e("leaguechange")], N.prototype, "updateBg", null),'
 
 
 6. Đặt Brake Point tại đường này. Bạn có thể thực hiện việc này bằng cách nhấp vào số dòng ở bên trái của mã hoặc nhấn phím **F9**trên bàn phím.
