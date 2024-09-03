@@ -58,18 +58,18 @@ try {
             this.m_btn_AutoSetting.visible = false;
         }
         this.m_img_StopAuto.visible = !P.cat.isAuto;
-        u(`AutoBot ${P.cat.isAuto ? 'đã kích hoạt' : 'đã tắt'}!\n\nĐược crack bởi @nuller`);
+        u(`AutoBot ${P.cat.isAuto ? 'đã kích hoạt' : 'đã tắt'}!\n\nĐược crack bởi @bibo318`);
     }
     
     // Gán hàm onClickAuto vào prototype của N thay vì M
     N.prototype.onClickAuto = onClickAuto;
     console.log(`${consolePrefix}Script đã tải`, consoleGreen);
-    
+    console.log(`${consolePrefix}Được crack bởi @bibo318`, consoleGreen);
 
 } catch (e) {
     console.log(`${consolePrefix}Đã xảy ra lỗi, điểm dừng được đặt không đúng!`, consoleRed);
     console.log(`${consolePrefix}Vui lòng làm theo hướng dẫn, và bạn sẽ thành công :*`, consoleRed);
-  
+    console.log('https://github.com/bibo318/AutoBot-Catizen');
 }
 Để tắt trình gỡ lỗi, hãy quay lại tab **"Sources"**và nhấp vào Brake Point để xóa nó. Bạn cũng có thể nhấn lại phím F9để xóa Brake Point.
 Đó là nó! Giờ đây bạn có thể sử dụng chế độ Tự động miễn phí trong trò chơi Catizen trên Telegram.
