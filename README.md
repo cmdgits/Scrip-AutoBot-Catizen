@@ -104,14 +104,14 @@ cmdgit
 
 <div align="center">
 
-[<img src="./resources/catizen-logo.jpg" width="144"/>](https://t.me/catizenbot)
+
 
   <h1 align="center">AutoBot for Catizen</h1>
   
   <p align="center">
     <strong>This script unlocks the "Auto" mode button in the game without requiring the cost of 3900 $Fish.</strong>
   </p>
-  <img src="./resources/demo.png"/>
+
 
 </div>
 
