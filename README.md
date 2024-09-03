@@ -9,7 +9,7 @@
   <p align="center">
     <strong>Kịch bản này mở khóa nút chế độ "Tự động" trong trò chơi mà không yêu cầu chi phí 3900 $Fish.</strong>
   </p>
-  <img src="./resources/demo.png"/>
+
 
 </div>
 
