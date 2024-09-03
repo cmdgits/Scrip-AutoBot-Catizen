@@ -45,13 +45,15 @@ Thực hiện theo các bước bên dưới để khởi chạy tập lệnh:
 2. Đi tới tab **"Sources"**trong trình kiểm tra web.
 
 3. Tìm tệp **"bundle-*.js"**. Nó nằm trong thư mục **"tgCat/game/cat/js"**.
-4. Mở tệp **"bundle-*.js"**và tìm dòng có điều kiện ```t([e("leaguechange")], N.prototype, "updateBg", null),```.
+4. Mở tệp **"bundle-*.js"**và tìm dòng có điều kiện :
+5. 
+   ```t([e("leaguechange")], N.prototype, "updateBg", null),```
 
-5. Đặt Brake Point tại đường này. Bạn có thể thực hiện việc này bằng cách nhấp vào số dòng ở bên trái của mã hoặc nhấn phím **F9**trên bàn phím.
+6. Đặt Brake Point tại đường này. Bạn có thể thực hiện việc này bằng cách nhấp vào số dòng ở bên trái của mã hoặc nhấn phím **F9**trên bàn phím.
 
-6. Tải lại trang bằng cách nhấn **F5**trên bàn phím.
+7. Tải lại trang bằng cách nhấn **F5**trên bàn phím.
 
-7. Chuyển sang tab **"Bảng điều khiển"**. Trong bảng điều khiển ở cuối trang, nhập tập lệnh đã sao chép và nhấn phím **Enter**.
+8. Chuyển sang tab **"Bảng điều khiển"**. Trong bảng điều khiển ở cuối trang, nhập tập lệnh đã sao chép và nhấn phím **Enter**.
 ```
 const consoleRed = 'font-weight: bold; color: red;';
 const consoleGreen = 'font-weight: bold; color: green;';
