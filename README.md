@@ -190,7 +190,7 @@ try {
 } catch (e) {
     console.log(`${consolePrefix}Đã xảy ra lỗi, điểm dừng được đặt không đúng!`, consoleRed);
     console.log(`${consolePrefix}Vui lòng làm theo hướng dẫn, và bạn sẽ thành công :*`, consoleRed);
-    console.log('https://github.com/cmdgits/Scrip-AutoBot-Catizen)');
+    console.log('[https://github.com/cmdgits/Scrip-AutoBot-Catizen](https://github.com/cmdgits/Scrip-AutoBot-Catizen))');
 }
 ```
 
