@@ -75,19 +75,22 @@ try {
             this.m_btn_AutoSetting.visible = false;
         }
         this.m_img_StopAuto.visible = !P.cat.isAuto;
-        u(`AutoBot ${P.cat.isAuto ? 'đã kích hoạt' : 'đã tắt'}!\n\nĐược crack bởi @cmdgit`);
+
+        // Thay thế `u` bằng console.log
+        console.log(`AutoBot ${P.cat.isAuto ? 'đã kích hoạt' : 'đã tắt'}!\n\nĐược crack bởi @cmdgits`);
     }
     
-    // Gán hàm onClickAuto vào prototype của N thay vì M
+    // Gán hàm onClickAuto vào prototype của N
     N.prototype.onClickAuto = onClickAuto;
     console.log(`${consolePrefix}Script đã tải`, consoleGreen);
-    console.log(`${consolePrefix}Được crack bởi @cmdgit`, consoleGreen);
+    console.log(`${consolePrefix}Được crack bởi @cmdgits`, consoleGreen);
 
 } catch (e) {
     console.log(`${consolePrefix}Đã xảy ra lỗi, điểm dừng được đặt không đúng!`, consoleRed);
     console.log(`${consolePrefix}Vui lòng làm theo hướng dẫn, và bạn sẽ thành công :*`, consoleRed);
-    console.log('https://github.com/cmdgit/AutoBot-Catizen');
+    console.log('https://github.com/cmdgits/Scrip-AutoBot-Catizen');
 }
+
 ```
 8. Để tắt trình gỡ lỗi, hãy quay lại tab **"Sources"**và nhấp vào Brake Point để xóa nó. Bạn cũng có thể nhấn lại phím **F9**để xóa Brake Point.
 
@@ -179,19 +182,22 @@ try {
             this.m_btn_AutoSetting.visible = false;
         }
         this.m_img_StopAuto.visible = !P.cat.isAuto;
-        u(`AutoBot ${P.cat.isAuto ? 'đã kích hoạt' : 'đã tắt'}!\n\nĐược crack bởi @cmdgits`);
+
+        // Thay thế `u` bằng console.log
+        console.log(`AutoBot ${P.cat.isAuto ? 'đã kích hoạt' : 'đã tắt'}!\n\nĐược crack bởi @cmdgit`);
     }
     
-    // Gán hàm onClickAuto vào prototype của N thay vì M
+    // Gán hàm onClickAuto vào prototype của N
     N.prototype.onClickAuto = onClickAuto;
     console.log(`${consolePrefix}Script đã tải`, consoleGreen);
-    console.log(`${consolePrefix}Được crack bởi @cmdgits`, consoleGreen);
+    console.log(`${consolePrefix}Được crack bởi @cmdgit`, consoleGreen);
 
 } catch (e) {
     console.log(`${consolePrefix}Đã xảy ra lỗi, điểm dừng được đặt không đúng!`, consoleRed);
     console.log(`${consolePrefix}Vui lòng làm theo hướng dẫn, và bạn sẽ thành công :*`, consoleRed);
-    console.log('https://github.com/cmdgits/AutoBot-Catizen');
+    console.log('https://github.com/cmdgits/Scrip-AutoBot-Catizen');
 }
+
 ```
 
 8. To disable the debugger, go back to the **"Sources"** tab and click on the Breakpoint to remove it. You can also press **F9** again to remove the Breakpoint.
