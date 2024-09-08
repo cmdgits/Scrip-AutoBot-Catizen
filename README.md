@@ -8,6 +8,7 @@
     <strong>Scrip này mở khóa nút chế độ "Tự động" trong trò chơi mà không yêu cầu chi phí 3900 $Fish.</strong>
   </p>
 
+Video HD:   https://youtu.be/Sz01To1M2Og
 
 </div>
 
